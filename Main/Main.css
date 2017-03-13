@@ -18,16 +18,26 @@
     bottom: 5;
 }
 
+li {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 ul {
-    float: left;
-    background-color: #383838;
-    height: 100%;
+    list-style-type: none;
     margin: 0px;
     padding: 0px;
+
+}
+
+#links {
     width: 50px;
+    height: 100%;
+    background-color: #383838;
     position: fixed;
-    bottom: 0;
-    z-index: 9999;
+    margin: 0px;
+    padding: 0px;
 }
 
 .spacer {
@@ -39,22 +49,43 @@ ul {
 
 h1 {
     margin: auto;
-    
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .main {
-    margin: auto;
-    width: 30%;
-    padding: auto; 
     background-color: white;
-
+    margin: auto;
+    min-width: 250px;
+    max-width: 500px;
 }
 
-body {
+#data {
+    margin: auto;
+    width: auto;
+    height: 100%;
+    padding: auto;
     background-image: url("Splashscreen.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
