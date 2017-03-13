@@ -1,45 +1,3 @@
-#Menu {
-    position: fixed;
-    top: 5;
-}
-
-#Home {
-    position: fixed;
-    bottom: 45;
-}
-
-#Places {
-    position: fixed;
-    bottom: 25;
-}
-
-#More {
-    position: fixed;
-    bottom: 5;
-}
-
-li {
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-
-}
-
-#links {
-    width: 50px;
-    height: 100%;
-    background-color: #383838;
-    position: fixed;
-    margin: 0px;
-    padding: 0px;
-}
-
 .spacer {
     margin: auto;
     width: 60%;
@@ -65,10 +23,11 @@ h2 {
     padding-right: 20px;
     font-style: italic;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .main {
-    background-color: white;
+    background-color: #C6D166;
     margin: auto;
     min-width: 250px;
     max-width: 500px;
@@ -76,19 +35,44 @@ h2 {
 
 #data {
     margin: auto;
-    width: auto;
+    width: 100%;
     height: 100%;
     padding: auto;
-    background-image: url("Splashscreen.jpg");
+    background-image: url("Splashscreen2.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: 3px solid #5C821A;
+}
+
+li {
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+    display: inline;
+}
+
+#end {
+    display: inline;
+    float: right;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+#links {
+    background-color: #C6D166;
 }
 
 body {
-    width: 100%;
-    height: 100%;
     margin: 0px;
+    background-color: #C6D166;
 }
 
 html {
