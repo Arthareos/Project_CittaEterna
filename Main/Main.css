@@ -1,8 +1,3 @@
-@font-face {
-    font-family: nav;
-    src: url("NixieOne-Regular.woff");
-}
-
 .spacer {
     margin: auto;
     width: 60%;
@@ -56,9 +51,6 @@ li {
     padding: 10px;
     margin: 0px;
     display: inline;
-    font-family: nav;
-    color: black;
-    font-size: 18;
 }
 
 #end {
