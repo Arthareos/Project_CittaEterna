@@ -38,7 +38,7 @@ h2 {
     max-width: 500px;
 }
 
-#data {
+#splash {
     margin: auto;
     width: 100%;
     height: 100%;
@@ -47,8 +47,38 @@ h2 {
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0px 0px 5px 5px;
     border-bottom: 3px solid #5C821A;
+}
+
+#quote p1 {
+    padding: 5px;
+    width: 100%;
+    color: black;
+    font-size: 40;
+    text-align: center;
+    font-style: italic;
+}
+
+#quote p2 {
+    width: 100%;
+    padding-left: 70%;
+    color: black;
+    font-size: 30;
+    text-align: right;
+}
+
+#quote {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 5px black;
+}
+
+#directory {
+    width: 100%;
+    height: 10%;
+    border-top: 3px solid #5C821A;
+    background-color: white;
 }
 
 li {
