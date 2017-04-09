@@ -100,7 +100,7 @@ h3 {
 }
 
 #places tr td {
-    padding: 40px;
+    padding: 0px;
     width: 300px;
     height: 150px;
     background-color: black;
@@ -121,6 +121,25 @@ table {
     width: 100%;
     border-top: 3px solid #5C821A;
     background-color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *colosseo* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#col_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("col_back.jpeg");
+}
+
+#col_txt {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#col_txt:hover {
+    opacity: 0.75;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~ *links* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
