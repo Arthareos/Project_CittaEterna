@@ -100,7 +100,7 @@ h3 {
 }
 
 #places tr td {
-    padding: 40px;
+    padding: 0px;
     width: 300px;
     height: 150px;
     background-color: black;
@@ -121,6 +121,311 @@ table {
     width: 100%;
     border-top: 3px solid #5C821A;
     background-color: white;
+}
+
+a.dir_link {
+    border-top: 100px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: nav;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dir_txt {
+    padding: auto;
+    padding-top: 125px;
+}
+
+.dir_txt_espo {
+    padding: auto;
+    padding-top: 100px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *colosseo* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#col_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/colo_back.jpeg");
+}
+
+#col_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#col_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Foro Romano* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#foro_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/foro_back.jpg");
+}
+
+#foro_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#foro_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Colle Palatino* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#pala_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/pala_back.jpg");
+}
+
+#pala_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#pala_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Villa Borghese* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#borg_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/borg_back.jpg");
+}
+
+#borg_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#borg_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Bioparco* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#zoo_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/zoo_back.jpg");
+}
+
+#zoo_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#zoo_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Quirinale* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#scud_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/scud_back.jpg");
+}
+
+#scud_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#scud_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Capitolino* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#capi_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/capi_back.jpg");
+}
+
+#capi_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#capi_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Traiano* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#trai_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/trai_back.jpg");
+}
+
+#trai_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#trai_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Massimo* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#mass_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/mass_back.jpg");
+}
+
+#mass_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#mass_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Venezia* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#vene_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/vene_back.jpg");
+}
+
+#vene_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#vene_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Spagna* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#spag_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/spag_back.jpg");
+}
+
+#spag_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#spag_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Esposizioni* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#espo_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/espo_back.jpg");
+}
+
+#espo_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#espo_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *San Pietro* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#piet_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/piet_back.jpg");
+}
+
+#piet_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#piet_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Pantheon* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#pant_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/pant_back.jpg");
+}
+
+#pant_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#pant_opa:hover {
+    opacity: 0.75;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ *Ostia* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#osti_img {
+    height: 150px;
+    width: 300px;
+    background-image: url("./Directory/osti_back.jpg");
+}
+
+#osti_opa {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    opacity: 0;
+}
+
+#osti_opa:hover {
+    opacity: 0.75;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~ *links* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
