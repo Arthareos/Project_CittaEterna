@@ -123,6 +123,26 @@ table {
     background-color: white;
 }
 
+a.dir_link {
+    border-top: 100px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: nav;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dir_txt {
+    padding: auto;
+    padding-top: 125px;
+}
+
+.dir_txt_espo {
+    padding: auto;
+    padding-top: 100px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~ *colosseo* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #col_img {
@@ -140,10 +160,6 @@ table {
 
 #col_opa:hover {
     opacity: 0.75;
-}
-
-#dir_txt a {
-    text-decoration: none;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~ *Foro Romano* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
