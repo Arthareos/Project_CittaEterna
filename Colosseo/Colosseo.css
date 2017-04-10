@@ -1,0 +1,63 @@
+@font-face {
+    font-family: nav;
+    src: url("NixieOne-Regular.woff");
+}
+
+.main_data {
+    max-width: 900px;
+    min-width: 400px;
+    background-color: white;
+    margin: auto;
+}
+
+#title {
+    max-width: 900px;
+    min-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: nav;
+}
+
+h3 {
+    padding-top: 35px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: nav;
+}
+
+p {
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    font-family: nav;
+    font-size: 20px;
+    color: black;
+}
+
+#directory_spacer {
+    width: 100%;
+    height: 20px;
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
